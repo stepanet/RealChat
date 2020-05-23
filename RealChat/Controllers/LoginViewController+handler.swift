@@ -95,6 +95,7 @@ extension LoginViewController: UIImagePickerControllerDelegate, UINavigationCont
         present(picker, animated: true, completion: nil)
         
     }
+    
     func imagePickerController(_ picker: UIImagePickerController, didFinishPickingMediaWithInfo info: [UIImagePickerController.InfoKey : Any]) {
         var selectImageFromPicker:UIImage?
         
